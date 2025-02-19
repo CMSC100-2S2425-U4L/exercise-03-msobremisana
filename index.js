@@ -45,3 +45,10 @@ function validatePassword(str1,str2){
     }
 }
 
+function reversePassword(password){
+    var newString = "";
+
+    for(let i = password.length-1; i >= 0; i--){
+        newString = newString + password[i]
+    }
+}
